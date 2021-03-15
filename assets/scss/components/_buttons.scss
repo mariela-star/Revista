@@ -1,0 +1,38 @@
+.suscribete{
+    text-align: center;
+    background-color: $bgsuscr;
+    padding: 20px;
+        &__tit-sus{
+            font-size: x-large;
+            line-height: 20px;
+        }
+        &__group input,
+        &__group button {
+            display: inline-block;
+            border-width: 0;
+            font-size: 13px;
+            padding: 5px 10px;
+        }
+        &__group input{
+            width: 140px;
+        }
+        &__group button {
+            background-color: coral;
+            color: white;
+            width: 80px;
+        }
+
+}
+
+.button_default {
+    background-color: $carmine-pink;
+    border: 1px solid $carmine-pink;
+    margin-top: 1rem;
+    text-align: center;
+
+    &:hover {
+        background-color: $salmon;
+        background-color: $salmon;
+        color: $black-olive;
+    }
+}  
